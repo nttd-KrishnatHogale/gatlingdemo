@@ -1,0 +1,4 @@
+RUN	wednesday.VerifyDataFromResponse	verifydatafromresponse	1707906940401	sd	3.6.1
+USER	verify response body	START	1707906942960
+REQUEST		Get Auther By Id	1707906942989	1707906944427	OK	 
+USER	verify response body	END	1707906944487

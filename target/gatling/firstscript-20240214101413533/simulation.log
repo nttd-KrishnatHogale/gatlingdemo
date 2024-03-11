@@ -1,0 +1,4 @@
+RUN	wednesday.firstScript	firstscript	1707905653533	s	3.6.1
+USER	first script	START	1707905655815
+REQUEST		get all authers	1707905655834	1707905657474	OK	 
+USER	first script	END	1707905657491

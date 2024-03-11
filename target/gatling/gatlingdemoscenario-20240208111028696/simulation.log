@@ -1,0 +1,8 @@
+RUN	com.gatlingdemo.GatlingDemoScenario	gatlingdemoscenario	1707390628696	as	3.6.1
+USER	GatlingDemoScenario	START	1707390630122
+REQUEST	HomePage	Homepage	1707390630143	1707390633784	KO	regex( XSRF-TOKEN=(.*?)).find.exists, found nothing
+GROUP	HomePage	1707390630123	1707390633820	3641	KO
+REQUEST	LoginPage	InitialLogin	1707390635835	1707390639051	OK	 
+REQUEST	LoginPage	Login	1707390641073	1707390641415	KO	status.find.is(200), but actually found 405
+GROUP	LoginPage	1707390635830	1707390641416	3558	KO
+USER	GatlingDemoScenario	END	1707390643430

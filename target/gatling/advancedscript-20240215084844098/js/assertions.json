@@ -1,0 +1,10 @@
+{
+  "simulation": "thursday.AdvancedScript",
+  "simulationId": "advancedscript",
+  "start": 1707986924098,
+  "description": "sd",
+  "scenarios": ["Scenario Name"],
+  "assertions": [
+
+  ]
+}

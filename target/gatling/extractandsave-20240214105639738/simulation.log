@@ -1,0 +1,5 @@
+RUN	wednesday.ExtractAndSave	extractandsave	1707908199738	sd	3.6.1
+USER	Extract Valuse and Save	START	1707908201476
+REQUEST		Get All Authers	1707908201498	1707908203300	OK	 
+REQUEST		getaall authers	1707908208423	1707908208717	KO	jsonPath($.firstName).find.is(#{firstName}), but actually found First Name 2
+USER	Extract Valuse and Save	END	1707908208738

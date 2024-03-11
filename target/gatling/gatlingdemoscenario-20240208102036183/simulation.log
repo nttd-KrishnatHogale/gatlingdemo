@@ -1,0 +1,8 @@
+RUN	com.gatlingdemo.GatlingDemoScenario	gatlingdemoscenario	1707387636183	c	3.6.1
+USER	GatlingDemoScenario	START	1707387637584
+REQUEST	HomePage	Homepage	1707387637603	1707387639042	OK	 
+GROUP	HomePage	1707387637585	1707387639065	1439	OK
+REQUEST	LoginPage	InitialLogin	1707387641077	1707387642978	OK	 
+ERROR	Login: Failed to build request: No attribute named 'authToken' is defined 	1707387645002
+GROUP	LoginPage	1707387641069	1707387645003	1901	KO
+USER	GatlingDemoScenario	END	1707387647008

@@ -1,0 +1,5 @@
+RUN	wednesday.ExtractAndSave	extractandsave	1707909391162	a	3.6.1
+USER	Extract Valuse and Save	START	1707909393055
+REQUEST		Get All Authers	1707909393076	1707909394979	OK	 
+REQUEST		getaall authers	1707909400088	1707909400364	OK	 
+USER	Extract Valuse and Save	END	1707909400370

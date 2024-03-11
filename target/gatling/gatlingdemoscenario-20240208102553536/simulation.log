@@ -1,0 +1,8 @@
+RUN	com.gatlingdemo.GatlingDemoScenario	gatlingdemoscenario	1707387953536	b	3.6.1
+USER	GatlingDemoScenario	START	1707387954932
+REQUEST	HomePage	Homepage	1707387954958	1707387955846	KO	header(X-Token).find.exists, found nothing
+GROUP	HomePage	1707387954934	1707387955879	888	KO
+REQUEST	LoginPage	InitialLogin	1707387957899	1707387958288	OK	 
+REQUEST	LoginPage	Login	1707387960307	1707387960772	KO	status.find.is(200), but actually found 405
+GROUP	LoginPage	1707387957894	1707387960775	854	KO
+USER	GatlingDemoScenario	END	1707387962786

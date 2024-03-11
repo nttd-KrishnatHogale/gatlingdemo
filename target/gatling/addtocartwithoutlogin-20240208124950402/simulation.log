@@ -1,0 +1,9 @@
+RUN	com.gatlingdemo.AddTocartWithOutLogin	addtocartwithoutlogin	1707396590402	d	3.6.1
+USER	Addtocartwithouthome	START	1707396591857
+REQUEST	Home	HomePage	1707396591879	1707396593503	OK	 
+GROUP	Home	1707396591858	1707396593520	1624	OK
+REQUEST	AllProducts	ViewAllProduct	1707396595526	1707396596046	KO	regex(<a class="btn btn-primary addToCart" href="/cart/add/17" data-id="([^"]+)">).find.exists, found nothing
+GROUP	AllProducts	1707396595524	1707396598072	520	KO
+ERROR	Addtocart: Failed to build request: No attribute named 'dataid' is defined 	1707396598074
+GROUP	ADDToCart	1707396598072	1707396598074	0	KO
+USER	Addtocartwithouthome	END	1707396598079

@@ -1,0 +1,10 @@
+{
+  "simulation": "com.gatlingdemo.AddTocartWithOutLogin",
+  "simulationId": "addtocartwithoutlogin",
+  "start": 1707396030075,
+  "description": "v",
+  "scenarios": ["Addtocartwithouthome"],
+  "assertions": [
+
+  ]
+}

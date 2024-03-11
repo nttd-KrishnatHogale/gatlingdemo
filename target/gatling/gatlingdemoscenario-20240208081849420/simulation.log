@@ -1,0 +1,8 @@
+RUN	com.gatlingdemo.GatlingDemoScenario	gatlingdemoscenario	1707380329420	ch	3.6.1
+USER	GatlingDemoScenario	START	1707380330852
+REQUEST	HomePage	Homepage	1707380330878	1707380333728	KO	regex(content=(\d+)).find.exists, found nothing
+GROUP	HomePage	1707380330853	1707380333756	2850	KO
+REQUEST	LoginPage	InitialLogin	1707380335773	1707380336271	OK	 
+REQUEST	LoginPage	Login	1707380338288	1707380338645	KO	status.find.is(200), but actually found 405
+GROUP	LoginPage	1707380335766	1707380338646	855	KO
+USER	GatlingDemoScenario	END	1707380340653

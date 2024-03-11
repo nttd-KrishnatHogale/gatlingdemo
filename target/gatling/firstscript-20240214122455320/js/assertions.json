@@ -1,0 +1,10 @@
+{
+  "simulation": "wednesday.firstScript",
+  "simulationId": "firstscript",
+  "start": 1707913495320,
+  "description": "s",
+  "scenarios": ["first script"],
+  "assertions": [
+
+  ]
+}

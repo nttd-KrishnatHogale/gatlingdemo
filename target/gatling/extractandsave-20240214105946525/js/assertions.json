@@ -1,0 +1,10 @@
+{
+  "simulation": "wednesday.ExtractAndSave",
+  "simulationId": "extractandsave",
+  "start": 1707908386525,
+  "description": "jk",
+  "scenarios": ["Extract Valuse and Save"],
+  "assertions": [
+
+  ]
+}

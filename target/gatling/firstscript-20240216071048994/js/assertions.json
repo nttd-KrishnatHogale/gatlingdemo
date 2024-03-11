@@ -1,0 +1,10 @@
+{
+  "simulation": "Friday.firstScript",
+  "simulationId": "firstscript",
+  "start": 1708067448994,
+  "description": "sd",
+  "scenarios": ["ActivityAPI"],
+  "assertions": [
+
+  ]
+}

@@ -1,0 +1,8 @@
+RUN	com.gatlingdemo.GatlingDemoScenario	gatlingdemoscenario	1707387496792	che	3.6.1
+USER	GatlingDemoScenario	START	1707387498261
+REQUEST	HomePage	Homepage	1707387498287	1707387500359	OK	 
+GROUP	HomePage	1707387498262	1707387500382	2072	OK
+REQUEST	LoginPage	InitialLogin	1707387502401	1707387502759	KO	jsonPath($..token).find.exists preparation crashed: Jackson failed to parse into a valid AST: c.f.j.c.JsonParseException: Unexpected character ('<' (code 60)): expected a valid value (JSON String, Number, Array, Object or token 'null', 'true' or 'false')  at [Source: (io.netty.buffer.ByteBufInputStream); line: 1, column: 2]
+ERROR	Login: Failed to build request: No attribute named 'authToken' is defined 	1707387504811
+GROUP	LoginPage	1707387502396	1707387504811	358	KO
+USER	GatlingDemoScenario	END	1707387506817

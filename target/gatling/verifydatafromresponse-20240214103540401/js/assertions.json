@@ -1,0 +1,10 @@
+{
+  "simulation": "wednesday.VerifyDataFromResponse",
+  "simulationId": "verifydatafromresponse",
+  "start": 1707906940401,
+  "description": "sd",
+  "scenarios": ["verify response body"],
+  "assertions": [
+
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "simulation": "git.GitHubSearchSimulation",
+  "simulationId": "githubsearchsimulation",
+  "start": 1710178965574,
+  "description": "git check",
+  "scenarios": ["GitHub Search"],
+  "assertions": [
+
+  ]
+}
